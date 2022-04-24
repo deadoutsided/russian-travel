@@ -1,0 +1,22 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+.regular{
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 30px;
+  color:white;
+}
+
+.weight_900{
+  font-family: 'Inter';
+  font-weight: 900;
+  line-height: 100px;
+  font-size: 96px;
+  color:white;
+}
+
+.page{
+  background-color: #2A2C2F;
+}
