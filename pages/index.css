@@ -1,22 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
-.regular{
-  font-family: 'Inter';
-  font-weight: 400;
-  line-height: 36px;
-  font-size: 30px;
-  color:white;
-}
-
-.weight_900{
-  font-family: 'Inter';
-  font-weight: 900;
-  line-height: 100px;
-  font-size: 96px;
-  color:white;
-}
-
-.page{
-  background-color: #2A2C2F;
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-container/header__lang-container.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
