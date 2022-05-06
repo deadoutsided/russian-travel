@@ -1,0 +1,8 @@
+.place__column{
+  display: flex;
+  flex-direction: column;
+}
+
+.place__column:first-child{
+  padding-right: 40px;
+}
