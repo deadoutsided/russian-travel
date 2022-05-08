@@ -1,3 +1,4 @@
 .header__lang-container{
-  padding: 18px 0 6px;;
+  padding: 18px 0 6px;
+  display: flex;
 }

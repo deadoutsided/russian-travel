@@ -6,3 +6,9 @@
   margin: 0 auto 24px;
   align-items: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer{
+    max-width: 928px;
+  }
+}

@@ -4,3 +4,9 @@
   max-width: 690px;
   min-height: 429px;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro{
+    padding-right: 238px;
+  }
+}
