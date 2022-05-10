@@ -4,6 +4,33 @@
   font-size: 72px;
   line-height: 1.06;
   color: #FFFFFF;
-  margin: 0;
+  margin: 0 40px 0 0;
   padding-bottom: 48px;
+  width: 460px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__title{
+    margin: 0 32px 0 0;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title{
+    font-size: 42px;
+    line-height: 1.1;
+    width: 340px;
+    margin: 0 28px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title{
+    font-size: 32px;
+    line-height: 1.09;
+    width: 288px;
+    margin: 0 0 0 0;
+    padding-bottom: 32px;
+  }
 }

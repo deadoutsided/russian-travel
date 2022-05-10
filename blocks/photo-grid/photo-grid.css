@@ -11,3 +11,20 @@
     gap: 14px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .photo-grid{
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    gap: 16px;
+    padding: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid{
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    grid-template-rows: repeat(12, minmax(216px,1fr));
+    gap: 12px;
+    padding: 0 16px 64px;
+  }
+}

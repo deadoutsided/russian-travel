@@ -1,14 +1,21 @@
 .place__column{
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
-.place__column:first-child{
+/*.place__column:first-child{
   padding-right: 40px;
-}
+}*/
 
-@media screen and (max-width: 1279px) {
+/*@media screen and (max-width: 1279px) {
   .place__column:first-child{
     padding-right: 32px;
+  }
+}*/
+
+@media screen and (max-width: 767px) {
+  .place__column{
+    justify-content: center;
   }
 }

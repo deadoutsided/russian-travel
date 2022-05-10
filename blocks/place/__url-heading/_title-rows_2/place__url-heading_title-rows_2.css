@@ -1,3 +1,9 @@
 .place__url-heading_title-rows_2{
   padding: 106px 0 12px;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__url-heading_title-rows_2{
+    padding: 0 0 12px;
+  }
+}
