@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 1184px;
-  height: 740px;
+  min-height: 740px;
   padding: 0;
   margin: 12px auto 92px;
 }
@@ -12,14 +12,14 @@
 @media screen and (max-width: 1279px) {
   .cover{
     width: 1024px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover{
     width: 768px;
-    height: 480px;
+    min-height: 480px;
     margin: 17px auto 88px;
   }
 }
@@ -27,7 +27,7 @@
 @media screen and (max-width: 767px) {
   .cover{
     width: 320px;
-    height: 200px;
+    min-height: 200px;
     margin: 16px auto 64px;
   }
 }

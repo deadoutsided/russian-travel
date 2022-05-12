@@ -1,5 +1,6 @@
 .place__paragraph-cont{
   max-width: 484px;
+  padding-top: 48px;
 }
 
 @media screen and (max-width: 1279px) {
