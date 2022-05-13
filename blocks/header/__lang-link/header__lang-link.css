@@ -8,10 +8,6 @@
   text-decoration: none;
 }
 
-.header__lang-link:first-of-type{
-  margin-right: 18px;
-}
-
 .header__lang-link:hover{
   color:#ffffffcc;
   transition: color 0.2s linear;
